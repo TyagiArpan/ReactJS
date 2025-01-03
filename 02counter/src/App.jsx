@@ -14,8 +14,13 @@ function App() {
     if (counter > 20) {
       counter = 20
     }
-    // console.log("this is counter", counter)
+
     setCounter(counter)
+    // console.log("this is counter", counter)
+    // setCounter(prevCounter => prevCounter + 1)
+    // setCounter(prevCounter => prevCounter + 1)
+    // setCounter(prevCounter => prevCounter + 1)
+    // setCounter(prevCounter => prevCounter + 1)
   }
 
   const decrease_value = () => {
